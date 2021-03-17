@@ -1,4 +1,4 @@
-image:
- tag: 2.9.9
-ingress:
-  host: flux-staging.devops-toolkit.10.96.0.1.xip.io
+#image:
+# tag: 2.9.9
+#ingress:
+#  host: flux-staging.devops-toolkit.10.96.0.1.xip.io
