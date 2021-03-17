@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: helm
+      chart: devops-toolkit
       sourceRef:
         kind: GitRepository
         name: devops-toolkit
