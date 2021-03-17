@@ -1,1 +1,4 @@
-image: tag: 2.9.9 ingress: host: staging.devops-toolkit..xip.io
+"image:
+ tag: 2.9.9
+ingress:
+ host: flux-staging.devops-toolkit.http://localhost:8000.xip.io
