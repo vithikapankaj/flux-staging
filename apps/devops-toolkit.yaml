@@ -9,7 +9,7 @@ spec:
       chart: helm
       sourceRef:
         kind: GitRepository
-        name: flux-staging
+        name: devops-toolkit
   interval: 30s
   targetNamespace: flux-staging
   values:
