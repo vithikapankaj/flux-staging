@@ -12,8 +12,8 @@ spec:
         name: devops-toolkit
   interval: 30s
   targetNamespace: flux-staging
-  values:
-    image:
-      tag: 2.9.10
-    ingress:
-      host: flux-staging.devops-toolkit.10.96.251.179.xip.io
+#  values:
+#    image:
+#      tag: 2.9.10
+#    ingress:
+#      host: flux-staging.devops-toolkit.10.96.251.179.xip.io
