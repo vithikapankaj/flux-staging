@@ -16,4 +16,4 @@ spec:
     image:
       tag: 2.9.10
     ingress:
-      host: flux-staging.devops-toolkit.10.96.0.1.xip.io
+      host: flux-staging.devops-toolkit.10.96.251.179.xip.io
