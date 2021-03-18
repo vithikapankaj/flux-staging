@@ -1,7 +1,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: staging-chart
+  name: devops-toolkit
   namespace: flux-system
 spec:
   chart:
@@ -9,7 +9,7 @@ spec:
       chart: staging-chart
       sourceRef:
         kind: GitRepository
-        name: staging-chart
+        name: flux-staging
   interval: 30s
   targetNamespace: flux-staging
 #  values:
