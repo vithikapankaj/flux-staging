@@ -4,7 +4,6 @@ metadata:
   name: devops-toolkit
   namespace: flux-system
 spec:
-  url: https://github.com/vithikapankaj/flux-staging
   chart:
     spec:
       chart: helm
