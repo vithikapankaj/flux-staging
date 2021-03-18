@@ -8,8 +8,8 @@ spec:
     spec:
       chart: staging-chart
       sourceRef:
-        kind: GitRepository
-        name: devops-toolkit
+        kind: HelmRepository
+        name: staging-chart
   interval: 30s
   targetNamespace: flux-staging
 #  values:
