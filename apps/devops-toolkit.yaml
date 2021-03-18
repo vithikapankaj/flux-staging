@@ -11,7 +11,7 @@ spec:
         kind: GitRepository
         name: devops-toolkit
   interval: 30s
-  targetNamespace: flux-staging
+  targetNamespace: default
 #  values:
 #    image:
 #      tag: 2.9.10
