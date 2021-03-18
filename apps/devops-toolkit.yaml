@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: devops-toolkit
+      chart: staging-chart
       sourceRef:
         kind: GitRepository
         name: devops-toolkit
