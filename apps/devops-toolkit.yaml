@@ -6,12 +6,12 @@ metadata:
 spec:
   chart:
     spec:
-      chart: helm
+      chart: devops-toolkit
       sourceRef:
         kind: GitRepository
         name: devops-toolkit
   interval: 30s
-  targetNamespace: default
+  targetNamespace: flux-staging
 #  values:
 #    image:
 #      tag: 2.9.10
