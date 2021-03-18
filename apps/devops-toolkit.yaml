@@ -8,7 +8,7 @@ spec:
     spec:
       chart: staging-chart
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: flux-staging
   interval: 30s
   targetNamespace: flux-staging

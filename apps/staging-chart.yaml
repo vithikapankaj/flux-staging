@@ -1,8 +1,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
-kind: GitRepository
+kind: HelmRepository
 metadata:
   name: staging-chart
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://charts.bitnami.com/bitnami
+  url: https://github.com/vithikapankaj/flux-staging
