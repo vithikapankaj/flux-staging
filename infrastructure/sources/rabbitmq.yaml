@@ -1,11 +1,11 @@
----
-apiVersion: source.toolkit.fluxcd.io/v1beta1
-kind: HelmRepository
-metadata:
-  name: rabbitmq-helm
-  namespace: flux-system
-spec:
-  interval: 1m0s
-  url: https://arm.sero.gic.ericsson.se/artifactory/proj-git-aes-gpr-3pp-del-helm/
-  secretRef:
-    name: helm-repo-secret
+#---
+#apiVersion: source.toolkit.fluxcd.io/v1beta1
+#kind: HelmRepository
+#metadata:
+#  name: rabbitmq-helm
+#  namespace: flux-system
+#spec:
+#  interval: 1m0s
+#  url: https://arm.sero.gic.ericsson.se/artifactory/proj-git-aes-gpr-3pp-del-helm/
+#  secretRef:
+#    name: helm-repo-secret
