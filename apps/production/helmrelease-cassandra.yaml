@@ -14,7 +14,7 @@ spec:
       version: 0.2.0
   interval: 2m0s
   releaseName: cassandra-release
-  targetNamespace: flux2-gad
+  targetNamespace: production
   values:
     image:
       repository: sekidocker.rnd.ki.sw.ericsson.se/proj-git-aes-gpr-3pp-del/eric-data-wide-column-database-cd
