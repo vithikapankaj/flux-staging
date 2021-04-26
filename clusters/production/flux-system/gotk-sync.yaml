@@ -20,6 +20,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
+  dependsOn:
+    - name: infrastructure
   path: ./apps/production
   prune: true
   sourceRef:
